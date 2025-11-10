@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  background-color: #0b0810;
+}
+
+body {
+  @apply min-h-screen bg-dusk-900 text-accent-100 font-body antialiased bg-sunrise-glow;
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(200, 155, 91, 0.55);
+  border-radius: 9999px;
+}
